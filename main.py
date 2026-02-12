@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "supersecretkey") 
 
-DB_FILE = "Epstein_Files.db"
+DB_FILE = "database.db"
 TABLE_NAME = "Epstein_Contributors"
 
 def init_db():
